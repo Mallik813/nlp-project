@@ -35,22 +35,26 @@ h2{
     animation: 1s ease-out 0s 1 slideInLeft;
 
 }
-/* table {
-    margin: auto;
+table {
+    margin: 50px auto;
     border-collapse: collapse;
     width: 60%;
 }
 
-td,
-th {
-    border: 1px solid #dddddd;
+tr {
+    border: 1px solid red;
     text-align: left;
     padding: 8px;
+}
+th{
+    text-align: center;
+    height: 50px;
+    border: 2px solid blue;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
-} */
+}
 
 @keyframes slideInTop {
     0% {
@@ -78,7 +82,7 @@ tr:nth-child(even) {
     justify-content: center;
     align-items: center;
     background-color: white;
-    
+    border-bottom: 2px solid black;
 }
 
 .card{
@@ -122,7 +126,10 @@ tr:nth-child(even) {
       box-shadow: 5px 10px 15px gray;
 
   }
+.data{
+    height: 50vh;
+}
 
-  .data{
-      height: 100vh;
-  }
+h3{
+    color: green;
+}

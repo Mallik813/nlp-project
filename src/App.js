@@ -39,15 +39,25 @@ function App() {
                     </div>
                 </div>
 
-                {/* <table>
+
+            </div>
+            <div className='data'>
+                <table>
                     <tr>
                         <th> Field </th>
                         <th> Data </th>
                     </tr>
-                </table> */}
-            </div>
-            <div className='data'>
+                    <tr>
+                        <th> Field </th>
+                        <th> Data </th>
+                    </tr>
+                    <tr>
+                        <th> Field </th>
+                        <th> Data </th>
+                    </tr>
+                </table>
 
+                <h3>CANDIATE IS FIT FOR THE JOB</h3>
             </div>
         </>
     );
